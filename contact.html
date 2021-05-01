@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N1MQ5WDZJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2N1MQ5WDZJ');
+    </script>
+
+    <meta charset="utf-8">
+
+    <meta name="keywords" content="Social media marketing agency photography video webddesign">
+    <meta name="description" content="Get a new website for your company, a new photoshoot for your team, a modern video for your company, or a  successful social media campaign">
+
+    <title>Cristian Yarce</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  </head>
+  <body>
+    <header>
+
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Cristian Yarce" width="300"  />
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="my-content animate__animated animate__heartBeat">
+        <br>
+        <h1>Let us help you grow your business! </h1>
+      </div>
+
+      <div class="left-halfcontact">
+        <img src="images/contactus.jpg" alt=" Contact" width="600">
+      </div>
+
+      <div class="right-half">
+        <div class="containercontact">
+
+          <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+            <div class="first-name input-section">
+              <label for="firstname" class="label_input_wrap">First name: </label>
+              <input type="text" name="req_firstname" id="firstname" placeholder="ex. David"/>
+            </div>
+
+            <div class="last-name input-section">
+              <label for="lastname" class="label_input_wrap">Last name: </label>
+              <input type="text" name="req_lastname" id="lastname" placeholder="ex. Ferrari"/>
+            </div>
+
+            <div class="email input-section">
+              <label for="email" class="label_input_wrap">Email: </label>
+              <input type="email" name="req_email" id="email" placeholder="ex. contact@gmail.com"/>
+            </div>
+
+            <div class="telephone input-section">
+              <label for="telephone" class="label_input_wrap">Telephone: </label>
+              <input type="tel" name="req_telephone" id="telephone" placeholder="123 222 4567"/>
+            </div>
+
+            <div class="dropdown input-section">
+              <label for="state" class="label_input_wrap">Choose your service: </label>
+              <select name="service" id="service">
+                <option value="ph">Photography</option>
+                <option value="video">Video</option>
+                <option value="web" selected>Web Design</option>
+              </select>
+            </div>
+
+            <div class="message input-section">
+              <label for="message" class="label_input_wrap">Message: </label>
+              <textarea name="req_message" id="message" rows="5" cols="55" placeholder="Tell me more about what you need"></textarea>
+            </div>
+
+
+            <div class="reset">
+              <input type="reset" value="refresh">
+            </div>
+
+            <div class="submit">
+              <input type="submit" name="" value="Send message">
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    <div class="containerfoot">
+      <div class="location">
+
+        <p>Cristian Yarce<br>
+        123 E Bay Blvd, Suite 100<br>
+        Tampa, Florida</p>
+      </div>
+      <div class="phone">
+        <br>
+        <p>Phone: (754- 333 -2211)
+        <br><br><br><br> Design by: Cristian Yarce</p>
+      </div>
+      <div class="socialm">
+        <p>Stay Connected</p>
+        <br>
+        <a href="https://facebook.com" target="_blank"><img src="images/fb.png" alt="Facebook" width="25" /></a>
+        <a href="https://instagram.com" target="_blank"><img src="images/ig.png" alt="Instagram" width="25" /></a>
+        <a href="https://youtube.com" target="_blank"><img src="images/yt.png" alt="YouTube" width="25" /></a>
+      </div>
+    </div>
+  </footer>
+</html>

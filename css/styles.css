@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #1072ba;
+  text-shadow: 1px 1px 2px lightgray;
+}
+
+.text-content {
+  text-align: center;
+  color: white;
+  background: #2caae2;
+  padding: 30px 300px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/*=====================
+
+  Header
+
+=========================*/
+
+
+
+header {
+  text-align: center;
+  background: #333;
+  padding: 20px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+header nav a:hover{
+  color: #2caae2;
+}
+
+header nav a:active{
+  color: #1072ba;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+
+/*=======================================
+
+  Home page - Our work
+
+========================================*/
+.my-image {
+   width: 100%;
+}
+.container-info {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.container-info img {
+    width: 100%;
+}
+
+.container-info a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.container-info h3 {
+    padding: 0;
+}
+
+.container-info img {
+    width: 175px;
+    border-radius: 50%;
+    height: 175px;
+    object-fit: cover;
+    padding: 3px;
+    background: #333;
+}
+
+.btn {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.btn a {
+    background: #2caae2;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+
+/*=======================================
+
+  About Us Page
+
+========================================*/
+.containerabout {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left-half,
+.right-half,
+.left-halfcontact {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+.left-half img,
+.right-half img {
+  padding: 20px;
+  width: 90%;
+}
+
+.right-half,
+.left-half,
+.left-halfcontact {
+    vertical-align: top;
+    padding: 10px 30px;
+}
+
+/*=======================================
+
+Contact form Styling
+
+========================================*/
+
+.left-halfcontact img {
+  margin: 0 auto;
+  padding: 160px;
+}
+
+.containercontact {
+  max-width: 900px;
+  margin: 40px auto 120px;
+  text-align: center;
+}
+
+.contact-form{
+  background: lightgray;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  color: #2caae2;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.label_input_wrap{
+  display: block;
+}
+
+.reset input,
+.submit input {
+  background: #2caae2;
+  color: white;
+  padding: 5px 20px;
+}
+
+.reset,
+.submit {
+  display: inline;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+input:hover {
+  background: #555;
+  color: white;
+  transition: .5s;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+textarea {
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+
+select {
+  width: 185px;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+/*=======================================
+
+Footer
+
+========================================*/
+.containerfoot{
+  width: 900px;
+  margin: 20px 310px;
+}
+
+.location,
+.phone,
+.socialm{
+  padding: 30px 20px;
+  background: #333;
+  text-align: center;
+  width: 275px;
+  height: 170px;
+  float: left;
+}
+
+
+footer {
+    color: white;
+}
+
+/*=======================================
+
+Gallery
+
+========================================*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
